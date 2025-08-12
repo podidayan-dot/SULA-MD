@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=x7VVAQgK#7mwh5MDUd9svsjzdFgBic0x655C8FT-k7KDUOZHAU7U' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=J70ngBSI#XdBIu7ixz4TSF9BL4N9k5A7yoRhKNTXDk7Tfop2i0u0' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS === undefined ?"true" : process.env.AUTO_REACT_STATUS,
@@ -31,6 +31,6 @@ NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_S
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
 TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
 AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "false" : process.env.AUTO_TIKTOK_SENDER,
-BUTTON: process.env.BUTTON === undefined ?"true" : process.env.BUTTON,
+BUTTON: process.env.BUTTON === undefined ?"false" : process.env.BUTTON,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://sadiya:MTCV3kmoO4YSt6bcK8naY9WCRRO7wL2v@dpg-d07n7k2li9vc73ff97bg-a/sula_md_db' : process.env.POSTGRESQL_URL,
 };
